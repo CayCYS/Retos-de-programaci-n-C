@@ -4,12 +4,15 @@ int main(){
     //Reto 1 Hello Word
     printf("Reto 1 \n");
     printf("Hello Word, Tomas \n");
+
     //Reto 2 Hola… nombre y apellido
     printf("\nReto 2 \n");
     printf("Hello Word My name is Tomas \n");
+    
     //Reto 3 Mensaje multilínea
     printf("\nReto 3 \n");
     printf("Platzi cuenta con cursos de: \nIngles\nMatematicas \nProgramacion \nLiderazgos");
+    
     //Reto 4 Sumador
     printf("\nReto 4 \n");
     float x, y, z;
@@ -19,5 +22,18 @@ int main(){
     scanf("%f",&y);
     z=x+y;
     printf("Suma es %f + %f = %.3f",x,y,z);
+    
+    //Reto 5 Suma y multiplicacion
+    printf("\nReto 5 \n");
+    int x, y, z, w;
+    printf("Ingrese el primer digito: ");
+    scanf("%d",&x);
+    printf("Ingrese el segundo digito: ");
+    scanf("%d",&y);
+    printf("Ingrese el segundo digito: ");
+    scanf("%d",&w);
+    w=(x+y)*z ;
+    printf("Valores son: %d, %d, %d",x,y,z);
+    printf("Resultado es: %d",w);
     return 0;
 }
