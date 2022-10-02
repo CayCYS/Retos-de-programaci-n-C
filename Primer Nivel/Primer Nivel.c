@@ -25,15 +25,15 @@ int main(){
     
     //Reto 5 Suma y multiplicacion
     printf("\nReto 5 \n");
-    int x, y, z, w;
+    int x1, y1, z1, w1;
     printf("Ingrese el primer digito: ");
-    scanf("%d",&x);
+    scanf("%d",&x1);
     printf("Ingrese el segundo digito: ");
-    scanf("%d",&y);
+    scanf("%d",&y1);
     printf("Ingrese el segundo digito: ");
-    scanf("%d",&w);
-    w=(x+y)*z ;
-    printf("Valores son: %d, %d, %d",x,y,z);
-    printf("Resultado es: %d",w);
+    scanf("%d",&z1);
+    w1=(x1+y1)*z1 ;
+    printf("Valores son: %d, %d, %d \n",x1,y1,z1);
+    printf("Resultado es: %d",w1);
     return 0;
 }
